@@ -1,0 +1,584 @@
+                     //Lecture 2 Getting Started
+A)#include <iostream>
+using namespace std;
+int main(){
+    cout << code ;
+}
+ANSWER:Error
+
+B)#include <iostream>
+using namespace std;
+int main(){
+    cout << "career" << "labs";
+}
+ANSWER:careerlabs
+
+C)Which of the following data type stores longest decimal number ?
+ANSWER:double
+
+D)Compiler assigns a garbage value to an uninitialised local variable in C++ Programming ?
+ANSWER:true
+
+E)What will be the output of following statements -
+bool a = true;
+cout << a;
+ANSWER:1
+
+F)What is the output of the following code if the input is : 5 15?
+  #include <iostream>
+  using namespace std;
+  int main() {
+        int a, b; 
+    cin >> a;
+    cin >> b;
+    cout << (a+b);
+            return 0;
+  }
+  ANSWER:20
+
+G)What is the output of the following code if the input is : 2 10.1 D ?
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    double d;
+    char c;
+    cin >> a >> d >> c;
+    cout << a << d << c << endl;
+}
+ANSWER:210.1D
+
+H)What will be the output of following statement ?
+ cout << (‘a’ + 1);
+ ANSWER:98
+
+I)What will be the output of following statement ?
+int i = 'c';
+cout << i;
+ANSWER:99
+
+J)#include <iostream>
+using namespace std;
+int main()
+{
+       char c = 74;
+       cout << c;
+       return 0;
+}
+ANSWER:J
+
+	K)#include <iostream>
+	using namespace std;
+	int main()
+	{
+	    int a = 10;
+	    char ch = 'a';
+	    ch = ch + a;
+	    cout << ch << endl;
+	}
+	ANSWER:k
+
+	L)#include <iostream>
+	using namespace std;   
+	int main()
+	{
+	    double a = 6 / 4;
+	    int b  = 6 / 4;
+	    double c = a + b;
+	    cout << c;
+	}
+	ANSWER:2
+
+	M)#include <iostream>
+	using namespace std;  
+	int main()
+	{
+	    double a = 55.5;
+	    int b = 55;
+	    a = a % 10;
+	    b = b % 10;
+	    cout << a << " "  << b;
+	}
+	ANSWER:Syntax Error
+  
+	N)#include <iostream>
+	using namespace std;
+	int main() 
+	{
+	    int var1 = 5;
+	    int var2 = 6;
+	    cout << (var1 > var2);
+	 }
+	ANSWER:0 */
+                     //Lecture 3 Conditionals and loops
+A)#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 5; 
+    if (x < 6)
+        cout <<  “Hello ”;
+    if(x == 5){
+        cout << “Hi ”;
+    }
+    else { 
+        cout << “Hey ”;
+    } 
+}
+ANSWER:Hello Hi
+
+B)#include <iostream>
+using namespace std;
+int main() {
+    int x = 15;
+    if(x <= 15) {
+        cout << "Inside if ";
+    } else if(x == 15) {
+        cout << "Inside else if ";
+    }
+    cout << x;
+}
+ANSWER:Inside if 15
+
+C)#include <iostream>
+using namespace std; 
+int main()
+{
+        int var1 = 5; 
+        int var2 = 6;
+        if ((var2 = 1) == var1)
+           cout << var2;
+        else 
+            cout  << (var2 + 1); 
+}
+ANSWER:2
+
+D)For what values of the x is an if-statement block not executed ?
+       if((1+x) != (1-x)) {
+          cout<<"In if block";
+         }
+ANSWER:0
+
+E)#include <iostream>
+using namespace std;
+int main() {
+    int a = 10, b = 20, c = 100;
+    if(a <= b || c <= b) {
+        cout << "hello" << endl;
+    }
+    else if(a <= b || a <= c) {
+        cout << "hi" << endl;
+    }
+    else {
+        cout << "hey" << endl;
+    }
+}
+ANSWER:hello
+
+F)#include <iostream>
+using namespace std;
+int main() {
+    int a = 10, b = 20, c = 30;
+    if(a <= b && !b) {
+        cout << "hello";
+    }
+    else if(c >= a && c >= b) {
+        cout << "hi";
+    }
+    else {
+        cout << "hey";
+    }
+}
+ANSWER:hi
+
+                   //Lecture 6 Operators and for loops
+A)#include <iostream>
+using namespace std;
+int main() 
+{    
+         int x, y = 1;
+         x = 10;
+         if (x != 10 && x / 0 == 0)
+            cout << y;
+         else
+             cout << ++y;
+}
+ANSWER:2
+
+B)#include <iostream>
+using namespace std;
+int main()
+{   
+    int x = 15;
+    int y = x++;
+    int z = ++x;
+    cout << y << “ “ << z;
+}
+ANSWER:15 17
+
+C)#include <iostream>
+using namespace std;
+int main() 
+{        
+         int g = 3;
+         cout << (++g * 8);
+}
+ANSWER:32
+
+D)#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 10;
+    int y = 20;
+    if(x++ > 10 && ++y > 20 ){
+    cout << "Inside if ";
+    } else{
+    cout << "Inside else ";
+    }
+    cout << x << “ “ << y;
+}
+ANSWER:Inside else 11 20
+
+E)#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 10;
+    int y = 20;
+    if(x++ > 10 || ++y > 20 ){
+    cout << "Inside if ";
+    } else{
+    cout << "Inside else ";
+    }
+    cout << x << “ “ << y;
+}
+ANSWER:Inside else 11 21
+
+F)What will be the output the following code ?
+for(int i = 0; i < 5; i = i + 1){
+    cout << i << " ";
+    i = i + 1;
+}
+ANSWER:0 2 4
+
+G)What will be the output the following code?
+for(int i = 1; i < 5; i = i + 1){
+    cout << i << " ";
+    i = i - 1;
+}
+ANSWER:Infinite 1s
+
+H)for(int i = 0; i < 2; i = i + 1) {
+     for(int j = 0; j < 2; j = j + 1) {
+          if (j == 1)
+              break;
+          cout << j << " ";
+      }
+ }
+ ANSWER:0 0
+ 
+ I)for(int i = 0; i < 5; i = i + 1) {
+     if(i == 2) 
+           continue;
+    cout << i << " ";
+ }
+ ANSWER:0 1 3 4
+ 
+ J)Which of these jump statements can skip processing remainder of code in its body for a particular iteration ?
+ ANSWER:continue
+ 
+ K)int i = 1;
+while(i < 5) {
+    if(i == 3) {
+        break;
+    }
+    cout << i << " ";
+    i++;
+}
+ANSWER:1 2
+
+L)int i = 1;
+while(i < 5) {
+    if(i == 3) {
+        continue;
+    }
+    cout << i << " ";
+    i++;
+}
+
+M)int i = 1;
+while(i < 5) {
+    if(i == 3) {
+        continue;
+    }
+    cout << i << " ";
+    i++;
+}
+ANSWER:1 2 Infinite Loop
+
+N)int i = 1;
+while(i < 3) {
+    int j = 1;
+    while(j < 5) {
+        if(j == 3) {
+            break;
+        }
+        cout << j << " ";
+        j++;
+    }
+    i++;
+}
+ANSWER:1 2 1 2
+
+P)int i = 1;
+while(i < 3) {
+    int j = 0;
+    while(j < 5) {
+        j++;
+        if(j == 3) {
+            continue;
+        }
+        cout << j << " ";
+    }
+    i++;
+}
+ANSWER:1 2 4 5 1 2 4 5
+
+Q)#include <iostream>
+using namespace std;
+int main() {
+    int a = 10;
+    if(a > 5) {
+        int b = 10;
+    }
+    cout << b << endl;
+}
+ANSWER:Yes
+
+R)#include <iostream>
+using namespace std;
+int main() {
+    int a = 10;
+    if(a > 5) {
+        int a = 100;
+    }
+    cout << a << endl;
+}
+ANSWER:No
+
+S)What is the output ?
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 10;
+    if(a > 5) {
+        int a = 100;
+    }
+    else {
+        int a = 110;
+    }
+    cout << a << endl;
+}
+ANSWER:10
+
+T)Will following code generate error ?
+#include <iostream>
+using namespace std;
+int main() {
+    for(int i = 0; i < 3; i++) {
+        cout << i << " ";
+    }
+    cout << i << " ";
+}
+ANSWER:Yes
+
+U)#include <iostream>
+using namespace std; 
+int main() {
+    int a = 10;
+    while(a > 5) {
+        int a = 1;
+        cout << a << " ";
+        a--;
+    }
+}
+ANSWER:Infinite Loop
+                  //Test 1
+A)int p = 100;
+if(p > 20) {
+    if(p < 20) {
+        printf("coding");
+    }
+} else {
+    printf("ninjas");
+}
+Answer:No Output
+
+B)Write the correct order(s) of statements.
+We want to print "Coding Ninjas" 10 times.
+1.  while(x <= 10) {
+2.  int x = 1;
+3.  x += 1;
+4.  cout<<"Coding Ninjas"<<endl;
+5.  }
+ANSWER:b 21345
+       c 21435
+
+C)Figure out the output
+int x = 10;
+while(x >= 0) {
+    x = x - 1;
+    cout<<x;
+    x--;
+}
+ANSWER:97531-1
+
+D)Please select the correct statement(s) about && and || operators.
+ANSWER:
+b](a || b) && c is true if c is true and either a or b is true 
+d]a || b is true if either a or b is true 
+
+                         //Lecture 7 Functions
+A)What is the return type of a method that does not returns any value ?
+ANSWER:void
+
+B)Let’s say the problem is - You will be given two numbers(both integers) and you need to return their sum.
+For this problem, what should be the return type of function
+ANSWER:int
+
+C)What will be the output of following code ?
+    void func(int a, int b){
+    cout << (a + b);
+    }
+
+    int main() {
+    int a = 7;
+    func(a, 12);
+    }
+    ANSWER:19
+  D)What will be the output of the following code ?
+void demo(int a, int b){
+    cout << a << " " << b;
+}
+
+int main() {
+    int a = 5;
+    int b = 15; 
+    demo(a);
+}
+ANSWER:Compilation Error
+
+E)#include <iostream>
+using namespace std;
+void func(int a) {
+    int b = a;
+    b = b + 10;
+}
+
+int main() {
+    int a = 10;
+    func(a);
+    cout << b << endl;
+}
+ANSWER:Yes
+
+F)#include <iostream>
+using namespace std;
+
+void func(int a) {
+    int b = 10;
+    a = b + 10;
+    cout << a << " ";
+}
+
+int main() {
+    int a = 10;
+    func(a);
+    cout << a << " ";
+}
+ANSWER:No
+
+G)void doubleValue(int a) {
+    a = a * 2;
+}
+int main() {
+    int a = 8;
+    doubleValue(a);
+    cout << a;
+}
+ANSWER:8
+
+H)int func(int a){
+    a += 10;
+    return a;
+}
+
+int main() {
+    int a = 5;
+    func(a);
+    cout << a;
+}
+ANSWER:5
+
+I)int square(int a){
+    int ans = a * a;
+    return ans;
+}
+
+int main() {
+    int a = 4;
+    a = square(a);
+    cout << a;
+}
+ANSWER:16
+
+                     //Lecture 8 Arrays
+A)Which of the following correctly declares an array of size 10 ?
+ANSWER:int array[10];
+
+B)What will be the output of the following code ?
+int arr[100];
+cout << arr[0];
+ANSWER:Garbage Value
+
+C)What is the index number of the last element of an array with 5 elements ?
+ANSWER:4
+
+D)Which of the following accesses the third element stored in array?
+ANSWER:array[2]
+
+E)What is the correct syntax for passing array to a function -
+void func(int a[]) {
+}
+
+int main() {
+    int a[10];
+    // Call function "func" and pass array a
+}
+ANSWER:func(a);
+
+F)#include <iostream>
+using namespace std;
+int main() {
+    int a[10];
+    cout << sizeof(a) << endl;
+}
+ANSWER:40
+
+G)Assume an integer takes 4 bytes and a pointer takes 8 bytes.
+#include <iostream>
+using namespace std;
+
+void func(int a[]) {
+    cout << sizeof(a) << endl;
+}
+
+int main() {
+    int a[10];
+    func(a);
+}
+ANSWER:8
+
+                      //Test 2
+ 
