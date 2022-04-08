@@ -238,7 +238,7 @@ int main()
     }
     cout << x << “ “ << y;
 }
-ANSWER:Inside else 11 20
+ANSWER:Inside if 11 20
 
 E)#include <iostream>
 using namespace std;
