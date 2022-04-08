@@ -298,16 +298,8 @@ while(i < 5) {
 }
 ANSWER:1 2
 
-L)int i = 1;
-while(i < 5) {
-    if(i == 3) {
-        continue;
-    }
-    cout << i << " ";
-    i++;
-}
 
-M)int i = 1;
+L)int i = 1;
 while(i < 5) {
     if(i == 3) {
         continue;
@@ -317,7 +309,7 @@ while(i < 5) {
 }
 ANSWER:1 2 Infinite Loop
 
-N)int i = 1;
+M)int i = 1;
 while(i < 3) {
     int j = 1;
     while(j < 5) {
@@ -331,7 +323,7 @@ while(i < 3) {
 }
 ANSWER:1 2 1 2
 
-P)int i = 1;
+N)int i = 1;
 while(i < 3) {
     int j = 0;
     while(j < 5) {
@@ -345,7 +337,7 @@ while(i < 3) {
 }
 ANSWER:1 2 4 5 1 2 4 5
 
-Q)#include <iostream>
+O)#include <iostream>
 using namespace std;
 int main() {
     int a = 10;
@@ -356,7 +348,7 @@ int main() {
 }
 ANSWER:Yes
 
-R)#include <iostream>
+P)#include <iostream>
 using namespace std;
 int main() {
     int a = 10;
@@ -367,7 +359,7 @@ int main() {
 }
 ANSWER:No
 
-S)What is the output ?
+Q)What is the output ?
 #include <iostream>
 using namespace std;
 int main() {
@@ -382,7 +374,7 @@ int main() {
 }
 ANSWER:10
 
-T)Will following code generate error ?
+R)Will following code generate error ?
 #include <iostream>
 using namespace std;
 int main() {
@@ -393,7 +385,7 @@ int main() {
 }
 ANSWER:Yes
 
-U)#include <iostream>
+S)#include <iostream>
 using namespace std; 
 int main() {
     int a = 10;
