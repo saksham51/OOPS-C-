@@ -238,7 +238,7 @@ int main()
     }
     cout << x << “ “ << y;
 }
-ANSWER:Inside if 11 20
+ANSWER:Inside else 11 20
 
 E)#include <iostream>
 using namespace std;
@@ -253,7 +253,7 @@ int main()
     }
     cout << x << “ “ << y;
 }
-ANSWER:Inside else 11 21
+ANSWER:Inside if 11 21
 
 F)What will be the output the following code ?
 for(int i = 0; i < 5; i = i + 1){
